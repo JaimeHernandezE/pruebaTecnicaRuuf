@@ -18,9 +18,10 @@
                             {{ form.as_p }}
                             <button type="submit" class="btn btn-primary w-100">Calcular</button>
                         </form>
+
                         {% if resultado is not None %}
                         <div class="alert alert-success mt-4">
-                            <strong>Resultado:</strong> Caben {{ resultado }} paneles.
+                            <strong>Resultado:</strong> Caben {{ resultado }} rectángulos.
                         </div>
                         {% endif %}
                     </div>
